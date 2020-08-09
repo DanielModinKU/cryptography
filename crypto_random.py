@@ -4,7 +4,8 @@ import numpy as np
 #IMPORTANT: messy, not clean code thrown together quickly. Needs clean up, variables, names etc are a mess. Random experiment to test principles.
 
 #key 
-key = 50
+original_key = 10**200
+key = original_key
 
 #test string to be encrypted 
 s = "this is test information"
@@ -47,7 +48,7 @@ np3 = np2 + np1
 
 #now decrypt data using a given key
 
-given_key = 50
+given_key = original_key
 key_sds = []
 decrypted_random_data = []
 
